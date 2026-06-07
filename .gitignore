@@ -1,0 +1,33 @@
+# ===== Backend (Java / Maven / Spring Boot) =====
+expense-tracker-backend/target/
+expense-tracker-backend/.mvn/wrapper/maven-wrapper.jar
+expense-tracker-backend/*.log
+expense-tracker-backend/application-local.properties
+expense-tracker-backend/application-local.yml
+expense-tracker-backend/.env
+
+# ===== Frontend (Node / Vite / React) =====
+expense-tracker-frontend/node_modules/
+expense-tracker-frontend/dist/
+expense-tracker-frontend/.env
+expense-tracker-frontend/.env.local
+expense-tracker-frontend/.env.*.local
+
+# ===== IDEs =====
+.idea/
+*.iml
+.vscode/
+*.suo
+*.user
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Misc =====
+*.class
+*.jar
+!expense-tracker-backend/.mvn/wrapper/maven-wrapper.jar
+*.war
+*.log
